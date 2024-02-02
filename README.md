@@ -23,7 +23,12 @@ SerenityBDD Challengue
 
 
 ### 4. Información adicional
--  La ejecución tendrá un resultado fallido,  ya que según las indicaciones el mensaje a validar es "THANK YOU FOR YOUR ORDER". Pero este mensaje no está al finalizar a compra.
+- Para agregar el DemoSerenityMaven [clean,verify...]  se tienen que hacer los siguientes pasos:
+  * Ir a RuunerTest / Edit onfigurations
+  * Luego seleccionar new maven
+  * Luego pegar lo siguiente: clean verify "-Dcucumber.options=--tags @End"
+  * Por último darle click en Apply y ok
+- La ejecución tendrá un resultado fallido,  ya que según las indicaciones el mensaje a validar es "THANK YOU FOR YOUR ORDER". Pero este mensaje no está al finalizar a compra.
 - Si se requiere obtener una ejecución exitosa solo se debe actualizar el mensaje correcto en el CheckoutCompleteStepDefinition  el cual está dentro de la carpeta step.
 - Ruta de CheckoutCompleteStepDefinition : src/test/java/com/bdd/step/CheckoutCompleteStepDefinition.java.
 - El mensaje correcto para que la ejecución sea exitosa es Thank you for your order!
