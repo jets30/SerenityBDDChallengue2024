@@ -1,0 +1,13 @@
+Hallazgos
+*Entre lo hallazgos que se encontraron tenemos los siguientes:
+-algunos titulos o descripciones de productos tienen métodos expuestos como carry.allTheThings()  o Test.allTheThings() T-Shirt (Red)
+-El mensaje exitoso de compra es Thank you for your order!  y no es “THANK YOU FOR YOUR ORDER”
+-Se puede terminar el flujo de compra exitosa a pesar de no seleccionar ningún producto
+-El número de SauceCard #31337 nunca cambia a pesar que realices muchas compras
+
+
+Conclusiones
+*Finalemente tenemos que la automatización en los en escenarios estables es de mucha ayuda en la ejecución
+de los diversos test o validaciones que se pueden realizar. Automatizar requiere de tiempo dedicado al análisis de los diversos escenarios
+y casos de prueba,escribir el código, estructurar el framework de acuerdo a lo que se requiere teniendo en cuenta diversos aspectos como el mantenimiento a futuro.Automatizar lleva
+un gran esfuerzo al inicio pero las retribuciones o beneficios a futuro son muy buenos.
